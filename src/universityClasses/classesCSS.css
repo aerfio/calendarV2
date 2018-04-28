@@ -1,0 +1,47 @@
+.lect{
+    /*background-color: deeppink;*/
+
+}
+.labsh{
+    /*background-color: blueviolet;*/
+    text-align: center;
+    padding: 0;
+}
+.labwide{
+    /*background-color: #bcb8ff;*/
+}
+.labwide,.labsh,.lect{
+    text-align: center;
+
+    margin-bottom:2px;
+    min-height: 10vh;
+    /*border: 1px black solid;*/
+}
+.title{
+    font-size: 2em;
+}
+.link{
+    color: black;
+    text-underline: none;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px){
+    .labwide,.labsh,.lect {
+        font-size: 1em;
+        margin-bottom:1px;
+    }
+    .title{
+        font-size: 1em;
+        padding-top: 5px;
+    }
+    .link{
+        font-size: 0.5em;
+        text-decoration: none;
+    }
+}
+#textarea{
+outline: none;
+    resize: none;
+    overflow: hidden;
+}

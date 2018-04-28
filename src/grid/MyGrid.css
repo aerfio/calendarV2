@@ -1,0 +1,19 @@
+.box{
+    /*border:1px black solid;*/
+    text-align: center;
+
+}
+
+@media  (max-width: 575.98px){
+    #kwpd{
+    font-size: 14px;
+}
+}
+
+#podzial{
+    color: black;
+    font-size: 1.5em;
+    padding-top: 100px;
+    text-underline: none;
+    text-decoration: none;
+}
