@@ -2,7 +2,7 @@ import React from 'react';
 import './classesCSS.css'
 class Lecture extends React.Component{
     render(){
-        //todo dokoncz tutaj
+
         return(<div className={'lect col-12  bg-success'}>
 <div className={'row justify-content-center align-self-center'}>
     <p className={'title'}>{this.props.text}</p>
